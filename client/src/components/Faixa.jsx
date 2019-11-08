@@ -6,7 +6,7 @@ export class Faixa extends Component {
     return (
       <div style={estilaDaFaixa}>
         <span style={{ alignSelf: "center", justifySelf: "center" }}>
-          <Doidera />
+          {/* <Doidera /> */}
         </span>
       </div>
     );
