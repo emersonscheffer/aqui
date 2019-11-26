@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/emersonscheffer/aqui#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-sass": "^4.13.0"
   }
 }

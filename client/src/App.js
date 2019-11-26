@@ -2,14 +2,16 @@ import React from "react";
 import "./Reset.css";
 import "./App.css";
 
-import Anuncio from "./components/Anuncio";
-import AdicionarAnuncio from "./components/AdicionarAnuncio";
+import "./css/AnuncioPopUp.css";
+// import "./css/webslide.scss"
+
+
+import Appllicativo from "./screens/Appllicativo";
 
 function App() {
   return (
     <div className="App">
-      <Anuncio />
-      <AdicionarAnuncio />
+      <Appllicativo />
     </div>
   );
 }
