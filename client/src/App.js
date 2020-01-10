@@ -1,18 +1,26 @@
 import React from "react";
+
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import { Provider } from "react-redux";
+import store from "./store";
+
 import "./Reset.css";
 import "./App.css";
 
 import "./css/AnuncioPopUp.css";
-// import "./css/webslide.scss"
 
-
-import Appllicativo from "./screens/Appllicativo";
+import Main from "./screens/Main";
 
 function App() {
   return (
-    <div className="App">
-      <Appllicativo />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Router>
+          <Main />
+        </Router>
+      </div>
+    </Provider>
   );
 }
 
